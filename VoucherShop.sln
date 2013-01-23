@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Yara.VoucherShop.Domain\Domain.csproj", "{5F8F710E-D1DC-4E67-982D-484283C781CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Yara.VoucherShop.Repository\Repository.csproj", "{1A8E8C66-C3DB-43DC-B47B-9C70E74549C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Yara.VoucherShop.Web\Web.csproj", "{D1EEC6BF-9033-4E00-BB51-D145D1F12930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F8F710E-D1DC-4E67-982D-484283C781CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8F710E-D1DC-4E67-982D-484283C781CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8F710E-D1DC-4E67-982D-484283C781CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8F710E-D1DC-4E67-982D-484283C781CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8E8C66-C3DB-43DC-B47B-9C70E74549C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8E8C66-C3DB-43DC-B47B-9C70E74549C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8E8C66-C3DB-43DC-B47B-9C70E74549C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8E8C66-C3DB-43DC-B47B-9C70E74549C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EEC6BF-9033-4E00-BB51-D145D1F12930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EEC6BF-9033-4E00-BB51-D145D1F12930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EEC6BF-9033-4E00-BB51-D145D1F12930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EEC6BF-9033-4E00-BB51-D145D1F12930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

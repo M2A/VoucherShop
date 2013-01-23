@@ -1,0 +1,37 @@
+﻿@model Yara.VoucherShop.Domain.ViewModels.CartModels.CartDetailViewModel
+
+@{
+    ViewBag.Title = "CartDetail";
+}
+
+<h2>CartDetail</h2>
+
+<p>
+</p>
+<table>
+    <tr>
+        <th>@Html.LabelFor(model => model.VouchersDetail.FirstOrDefault().Name)</th>
+        <th>@Html.LabelFor(model => model.VouchersDetail.FirstOrDefault().UnitPrice)</th>
+        <th>@Html.LabelFor(model => model.VouchersDetail.FirstOrDefault().Quantity)</th>
+        <th>@Html.LabelFor(model => model.VouchersDetail.FirstOrDefault().TotalPrice)</th>
+    </tr>
+    @foreach (var item in Model.VouchersDetail)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.UnitPrice</td>
+            <td>@item.Quantity</td>
+            <td>@item.TotalPrice</td>
+        </tr>
+    }
+    <tr>
+        <td>
+            @Html.LabelFor(model => model.TotalPrice)
+        </td>
+        <td>
+            @Model.TotalPrice
+        </td>
+    </tr>
+
+
+</table>
